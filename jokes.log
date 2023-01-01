@@ -1,0 +1,2 @@
+2023-01-01 21:23:17.322  WARN 13936 --- [main] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2023-01-01 21:23:17.425  WARN 13936 --- [main] org.jline                                : The Parser of class org.springframework.shell.jline.ExtendedDefaultParser does not support the CompletingParsedLine interface. Completion with escaped or quoted words won't work correctly.
