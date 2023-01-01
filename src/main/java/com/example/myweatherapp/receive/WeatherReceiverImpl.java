@@ -20,7 +20,9 @@ public class WeatherReceiverImpl implements WeatherReceiver {
        // return args -> {
         log.info("Start receive weather");
             Quote quote= restTemplate.getForObject(
-                    "http://api.weatherstack.com/current?access_key=64bd3f3518332f0dbd3f59bbceaa8662&query="+city
+                    "http://api.weatherstack.com/current?access_key=" +
+                            "YOUR API KEY FOR THIS RESOURCE" +
+                            "&query="+city
                     //"http://localhost:8090/greeting"
                     //"https://api.chucknorris.io/jokes/random"
                     , Quote.class);
